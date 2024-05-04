@@ -5,8 +5,9 @@ import os
 # 创建 DeOldifyPredictor 实例
 deoldify = DeOldifyPredictor()
 
-input_dir = "H:/code/PaddleGAN-Old-video-coloring/Data/"
-output_dir = "H:/code/PaddleGAN-Old-video-coloring/output/DeOldify/"
+root_dir = "f:/ppganVideoProcess"
+input_dir = root_dir + "/Data/"
+output_dir = root_dir + "/output/DeOldify/"
 
 filename = "RH.mp4"
 

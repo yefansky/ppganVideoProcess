@@ -1,8 +1,9 @@
 from ppgan.apps import PPMSVSRPredictor
 import os
 
-input_dir = "H:/code/PaddleGAN-Old-video-coloring/Data/"
-output_dir = "H:/code/PaddleGAN-Old-video-coloring/output/PPMSVSR/RHColor/"
+root_dir = "f:/ppganVideoProcess"
+input_dir = root_dir + "/Data/"
+output_dir = root_dir + "/output/PPMSVSR/RHColor/"
 
 filename = "RHColor.mp4"
 
